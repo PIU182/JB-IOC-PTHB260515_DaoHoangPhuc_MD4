@@ -2,7 +2,7 @@ spring:
   application:
     name: student-service
   datasource:
-    url: jdbc:postgresql://localhost:5432/course_db
+    url: jdbc:postgresql://localhost:5432/student_db
     username: postgres
     password: ${DB_PASSWORD:123456}
   jpa:

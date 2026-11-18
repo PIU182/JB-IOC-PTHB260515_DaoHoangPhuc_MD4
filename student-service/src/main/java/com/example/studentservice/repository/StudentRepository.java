@@ -1,7 +1,7 @@
 package com.example.studentservice.repository;
 import java.util.Optional;
 import com.example.studentservice.entity.Student;
-import feign.Param;
+import org.springframework.data.repository.query.Param;
 import jakarta.persistence.LockModeType;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Lock;
