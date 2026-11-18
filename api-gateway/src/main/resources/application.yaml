@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    gateway:
+      server:
+        webflux:
+          routes:
+            - id: student-route
+              uri: lb://STUDENT-SERVICE
+              predicates:
+                - Path=/api/students,/api/students/**
+            - id: course-route
+              uri: ib://COURSE-SERVICE
+              predicates:
+                - Path=/api/courses,/api/courses/**
+
+server:
+  port: 8080
+
+eureka:
+  client:
+    server-url:
+      defaultZone: http://localhost:8761/eureka/

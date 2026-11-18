@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="studentService" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api-gateway" options="-parameters" />
+      <module name="api-gateway.main" options="-parameters" />
+      <module name="api-gateway.test" options="-parameters" />
+      <module name="course-service" options="-parameters" />
+      <module name="course-service.main" options="-parameters" />
+      <module name="course-service.test" options="-parameters" />
+      <module name="service-registry" options="-parameters" />
+      <module name="service-registry.main" options="-parameters" />
+      <module name="service-registry.test" options="-parameters" />
+      <module name="student-service" options="-parameters" />
+      <module name="student-service.main" options="-parameters" />
+      <module name="student-service.test" options="-parameters" />
+      <module name="studentService" options="-parameters" />
+      <module name="studentService.main" options="-parameters" />
+      <module name="studentService.test" options="-parameters" />
+    </option>
+  </component>
+</project>
